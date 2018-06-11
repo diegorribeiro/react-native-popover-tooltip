@@ -136,7 +136,7 @@ class PopoverTooltip extends React.PureComponent<Props, State> {
   componentDidMount() {
 		setTimeout(() => {
 			this.toggle();
-		}, 200);
+		}, 500);
 	}
 
   toggleModal = () => {
